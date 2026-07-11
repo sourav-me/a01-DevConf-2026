@@ -1,3 +1,76 @@
-body{
-    background-color: aquamarine;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+/* Common Styles */
+.common-btn{
+    background-color: #1d4ed8;
+    padding:18px 48px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1650px;
+    margin: auto;
+    padding: 18px 8%;
+}
+
+.navbar-container button{
+    padding: 0 16px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 24px;
+    align-items: center;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.hero-banner{
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ), url('./assets/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content{
+    color: #ffffff;
+    text-align: center;
+}
+.header-content h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.header-content p{
+    font-size: 22px;
+    max-width: 800px;
+}
+
+.header-content button{
+    margin-top: 30%;
+    font-size: 22px;
 }
