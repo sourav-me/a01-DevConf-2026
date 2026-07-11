@@ -1,0 +1,1 @@
+Generate a modern HTML and CSS section for a DevConf 2026 landing page. The section should promote a FAQ. Use clean, responsive HTML and CSS that matches a professional developer conference website.
